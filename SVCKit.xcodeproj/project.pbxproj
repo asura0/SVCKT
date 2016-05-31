@@ -15,6 +15,18 @@
 		8D196A581CF5B99E00CB9B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D196A561CF5B99E00CB9B5D /* LaunchScreen.storyboard */; };
 		8D196A631CF5B99E00CB9B5D /* SVCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A621CF5B99E00CB9B5D /* SVCKitTests.m */; };
 		8D196A6E1CF5B99E00CB9B5D /* SVCKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A6D1CF5B99E00CB9B5D /* SVCKitUITests.m */; };
+		8D196A7D1CF5B9E900CB9B5D /* SVCSegmetCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A7C1CF5B9E900CB9B5D /* SVCSegmetCollectionView.m */; };
+		8D196A801CF5BE4E00CB9B5D /* SVCShowCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A7F1CF5BE4E00CB9B5D /* SVCShowCollectionView.m */; };
+		8D196A881CF5C2B400CB9B5D /* SVCShowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A871CF5C2B400CB9B5D /* SVCShowCollectionViewCell.m */; };
+		8D196A8C1CF5C32D00CB9B5D /* SVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A8A1CF5C32D00CB9B5D /* SVCViewController.m */; };
+		8D196A8D1CF5C32D00CB9B5D /* SVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D196A8B1CF5C32D00CB9B5D /* SVCViewController.xib */; };
+		8D196A911CF5CA4300CB9B5D /* SVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D196A8F1CF5CA4300CB9B5D /* SVCTableViewCell.m */; };
+		8D196A921CF5CA4300CB9B5D /* SVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D196A901CF5CA4300CB9B5D /* SVCTableViewCell.xib */; };
+		8D47C4F31CF80E6100EB1D7A /* SVCBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47C4F21CF80E6100EB1D7A /* SVCBackGroundView.m */; };
+		8D47C4F51CF80E6B00EB1D7A /* SVCBackGroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D47C4F41CF80E6B00EB1D7A /* SVCBackGroundView.xib */; };
+		8D7E69DA1CF6C606000BE05C /* SVCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E69D91CF6C606000BE05C /* SVCCollectionViewCell.m */; };
+		8D7E69DD1CF6EAC4000BE05C /* SVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E69DC1CF6EAC4000BE05C /* SVCModel.m */; };
+		9DA12D2E4B102239FB4D8D06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF341CCCA7AE4D8C742486 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3DD0C3E902402DA4E64E7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8D196A451CF5B99D00CB9B5D /* SVCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D196A491CF5B99E00CB9B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D196A4B1CF5B99E00CB9B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,27 @@
 		8D196A691CF5B99E00CB9B5D /* SVCKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVCKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D196A6D1CF5B99E00CB9B5D /* SVCKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVCKitUITests.m; sourceTree = "<group>"; };
 		8D196A6F1CF5B99E00CB9B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D196A7B1CF5B9E900CB9B5D /* SVCSegmetCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCSegmetCollectionView.h; sourceTree = "<group>"; };
+		8D196A7C1CF5B9E900CB9B5D /* SVCSegmetCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCSegmetCollectionView.m; sourceTree = "<group>"; };
+		8D196A7E1CF5BE4E00CB9B5D /* SVCShowCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCShowCollectionView.h; sourceTree = "<group>"; };
+		8D196A7F1CF5BE4E00CB9B5D /* SVCShowCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCShowCollectionView.m; sourceTree = "<group>"; };
+		8D196A861CF5C2B400CB9B5D /* SVCShowCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCShowCollectionViewCell.h; sourceTree = "<group>"; };
+		8D196A871CF5C2B400CB9B5D /* SVCShowCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCShowCollectionViewCell.m; sourceTree = "<group>"; };
+		8D196A891CF5C32D00CB9B5D /* SVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCViewController.h; sourceTree = "<group>"; };
+		8D196A8A1CF5C32D00CB9B5D /* SVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCViewController.m; sourceTree = "<group>"; };
+		8D196A8B1CF5C32D00CB9B5D /* SVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVCViewController.xib; sourceTree = "<group>"; };
+		8D196A8E1CF5CA4300CB9B5D /* SVCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCTableViewCell.h; sourceTree = "<group>"; };
+		8D196A8F1CF5CA4300CB9B5D /* SVCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCTableViewCell.m; sourceTree = "<group>"; };
+		8D196A901CF5CA4300CB9B5D /* SVCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVCTableViewCell.xib; sourceTree = "<group>"; };
+		8D47C4F11CF80E6100EB1D7A /* SVCBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCBackGroundView.h; sourceTree = "<group>"; };
+		8D47C4F21CF80E6100EB1D7A /* SVCBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCBackGroundView.m; sourceTree = "<group>"; };
+		8D47C4F41CF80E6B00EB1D7A /* SVCBackGroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVCBackGroundView.xib; sourceTree = "<group>"; };
+		8D7E69D81CF6C606000BE05C /* SVCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCCollectionViewCell.h; sourceTree = "<group>"; };
+		8D7E69D91CF6C606000BE05C /* SVCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCCollectionViewCell.m; sourceTree = "<group>"; };
+		8D7E69DB1CF6EAC4000BE05C /* SVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCModel.h; sourceTree = "<group>"; };
+		8D7E69DC1CF6EAC4000BE05C /* SVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCModel.m; sourceTree = "<group>"; };
+		C872151EC5857BE6FE98DB31 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BF341CCCA7AE4D8C742486 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA12D2E4B102239FB4D8D06 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08578E65B7F4C4EEDBB1DCC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BF341CCCA7AE4D8C742486 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A8D3834019FA460198499EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C872151EC5857BE6FE98DB31 /* Pods.debug.xcconfig */,
+				3C3DD0C3E902402DA4E64E7E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D196A3C1CF5B99D00CB9B5D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				8D196A611CF5B99E00CB9B5D /* SVCKitTests */,
 				8D196A6C1CF5B99E00CB9B5D /* SVCKitUITests */,
 				8D196A461CF5B99D00CB9B5D /* Products */,
+				4A8D3834019FA460198499EC /* Pods */,
+				08578E65B7F4C4EEDBB1DCC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +159,25 @@
 				8D196A4C1CF5B99E00CB9B5D /* AppDelegate.m */,
 				8D196A4E1CF5B99E00CB9B5D /* ViewController.h */,
 				8D196A4F1CF5B99E00CB9B5D /* ViewController.m */,
+				8D196A7B1CF5B9E900CB9B5D /* SVCSegmetCollectionView.h */,
+				8D196A7C1CF5B9E900CB9B5D /* SVCSegmetCollectionView.m */,
+				8D7E69D81CF6C606000BE05C /* SVCCollectionViewCell.h */,
+				8D7E69D91CF6C606000BE05C /* SVCCollectionViewCell.m */,
+				8D196A7E1CF5BE4E00CB9B5D /* SVCShowCollectionView.h */,
+				8D196A7F1CF5BE4E00CB9B5D /* SVCShowCollectionView.m */,
+				8D196A861CF5C2B400CB9B5D /* SVCShowCollectionViewCell.h */,
+				8D196A871CF5C2B400CB9B5D /* SVCShowCollectionViewCell.m */,
+				8D196A891CF5C32D00CB9B5D /* SVCViewController.h */,
+				8D196A8A1CF5C32D00CB9B5D /* SVCViewController.m */,
+				8D196A8B1CF5C32D00CB9B5D /* SVCViewController.xib */,
+				8D196A8E1CF5CA4300CB9B5D /* SVCTableViewCell.h */,
+				8D196A8F1CF5CA4300CB9B5D /* SVCTableViewCell.m */,
+				8D196A901CF5CA4300CB9B5D /* SVCTableViewCell.xib */,
+				8D47C4F11CF80E6100EB1D7A /* SVCBackGroundView.h */,
+				8D47C4F21CF80E6100EB1D7A /* SVCBackGroundView.m */,
+				8D47C4F41CF80E6B00EB1D7A /* SVCBackGroundView.xib */,
+				8D7E69DB1CF6EAC4000BE05C /* SVCModel.h */,
+				8D7E69DC1CF6EAC4000BE05C /* SVCModel.m */,
 				8D196A511CF5B99E00CB9B5D /* Main.storyboard */,
 				8D196A541CF5B99E00CB9B5D /* Assets.xcassets */,
 				8D196A561CF5B99E00CB9B5D /* LaunchScreen.storyboard */,
@@ -147,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D196A721CF5B99E00CB9B5D /* Build configuration list for PBXNativeTarget "SVCKit" */;
 			buildPhases = (
+				AB62163B50869600EE9344D3 /* Check Pods Manifest.lock */,
 				8D196A411CF5B99D00CB9B5D /* Sources */,
 				8D196A421CF5B99D00CB9B5D /* Frameworks */,
 				8D196A431CF5B99D00CB9B5D /* Resources */,
+				029BF7531BBA26ADEAA181EA /* Embed Pods Frameworks */,
+				7A5250E03D52422EF994B8F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +278,7 @@
 		8D196A3D1CF5B99D00CB9B5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SVC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = asura;
 				TargetAttributes = {
@@ -244,7 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D196A581CF5B99E00CB9B5D /* LaunchScreen.storyboard in Resources */,
+				8D196A921CF5CA4300CB9B5D /* SVCTableViewCell.xib in Resources */,
+				8D196A8D1CF5C32D00CB9B5D /* SVCViewController.xib in Resources */,
 				8D196A551CF5B99E00CB9B5D /* Assets.xcassets in Resources */,
+				8D47C4F51CF80E6B00EB1D7A /* SVCBackGroundView.xib in Resources */,
 				8D196A531CF5B99E00CB9B5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +345,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029BF7531BBA26ADEAA181EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A5250E03D52422EF994B8F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB62163B50869600EE9344D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D196A411CF5B99D00CB9B5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7E69DD1CF6EAC4000BE05C /* SVCModel.m in Sources */,
+				8D196A801CF5BE4E00CB9B5D /* SVCShowCollectionView.m in Sources */,
+				8D196A7D1CF5B9E900CB9B5D /* SVCSegmetCollectionView.m in Sources */,
+				8D196A8C1CF5C32D00CB9B5D /* SVCViewController.m in Sources */,
+				8D196A881CF5C2B400CB9B5D /* SVCShowCollectionViewCell.m in Sources */,
+				8D196A911CF5CA4300CB9B5D /* SVCTableViewCell.m in Sources */,
+				8D7E69DA1CF6C606000BE05C /* SVCCollectionViewCell.m in Sources */,
 				8D196A501CF5B99E00CB9B5D /* ViewController.m in Sources */,
 				8D196A4D1CF5B99E00CB9B5D /* AppDelegate.m in Sources */,
+				8D47C4F31CF80E6100EB1D7A /* SVCBackGroundView.m in Sources */,
 				8D196A4A1CF5B99E00CB9B5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,23 +549,27 @@
 		};
 		8D196A731CF5B99E00CB9B5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C872151EC5857BE6FE98DB31 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SVCKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asura.SVCKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		8D196A741CF5B99E00CB9B5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3DD0C3E902402DA4E64E7E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SVCKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asura.SVCKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -498,6 +638,7 @@
 				8D196A741CF5B99E00CB9B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D196A751CF5B99E00CB9B5D /* Build configuration list for PBXNativeTarget "SVCKitTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +647,7 @@
 				8D196A771CF5B99E00CB9B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D196A781CF5B99E00CB9B5D /* Build configuration list for PBXNativeTarget "SVCKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +656,7 @@
 				8D196A7A1CF5B99E00CB9B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
